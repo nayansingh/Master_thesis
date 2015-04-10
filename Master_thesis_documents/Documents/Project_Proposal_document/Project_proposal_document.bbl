@@ -1,0 +1,135 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{adver7:online}{misc}{}
+  \field{sortinit}{A}
+  \field{howpublished}{\url{http://www.oxforddictionaries.com/definition/english/advertisement}}
+  \field{note}{(Visited on 12/14/2014)}
+  \field{title}{advertisement: definition of advertisement in Oxford dictionary
+  (British \& World English)}
+\endentry
+
+\entry{baig2013contemporary}{book}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Baig}{B.}%
+     {Ebad}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tahir}{T.}%
+     {Hina}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shahzadi}{S.}%
+     {Iram}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Azar}{A.}%
+     {Faiza}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Lulu. com}%
+  }
+  \strng{namehash}{BE+1}
+  \strng{fullhash}{BETHSIAF1}
+  \field{sortinit}{B}
+  \field{title}{Contemporary Ideas and Research in Marketing}
+  \field{year}{2013}
+\endentry
+
+\entry{Depth6:online}{misc}{}
+  \field{sortinit}{D}
+  \field{howpublished}{\url{http://www.epixea.com/research/multi-view-coding-thesisse18.html}}
+  \field{note}{(Visited on 12/14/2014)}
+  \field{title}{Depth Image Based Rendering}
+\endentry
+
+\entry{haakansson2013portal}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {H{\aa}kansson}{H.}%
+     {Anne}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {CSREA Press USA}%
+  }
+  \strng{namehash}{HA1}
+  \strng{fullhash}{HA1}
+  \field{sortinit}{H}
+  \field{booktitle}{Proceedings of the International Conference on Frontiers in
+  Education: Computer Science and Computer Engineering FECS'13}
+  \field{pages}{67\bibrangedash 73}
+  \field{title}{Portal of research methods and methodologies for research
+  projects and degree projects}
+  \field{year}{2013}
+\endentry
+
+\entry{What3:online}{misc}{}
+  \field{sortinit}{W}
+  \field{howpublished}{\url{http://www.visiblelogic.com/blog/2013/02/logo-brand-identity-brand-what-is-branding/}}
+  \field{note}{(Visited on 12/14/2014)}
+  \field{title}{What is branding? Defining Logo, Brand Identity, And Brand |
+  Visible Logic}
+\endentry
+
+\entry{JCOM}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Yang}{Y.}%
+     {Moonhee}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roskos-Ewoldsen}{R.-E.}%
+     {David~R.}{D.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing Inc}%
+  }
+  \strng{namehash}{YMREDR1}
+  \strng{fullhash}{YMREDR1}
+  \field{sortinit}{Y}
+  \verb{doi}
+  \verb 10.1111/j.1460-2466.2007.00353.x
+  \endverb
+  \field{issn}{1460-2466}
+  \field{number}{3}
+  \field{pages}{469\bibrangedash 489}
+  \field{title}{The Effectiveness of Brand Placements in the Movies: Levels of
+  Placements, Explicit and Implicit Memory, and Brand-Choice Behavior}
+  \verb{url}
+  \verb http://dx.doi.org/10.1111/j.1460-2466.2007.00353.x
+  \endverb
+  \field{volume}{57}
+  \field{journaltitle}{Journal of Communication}
+  \field{year}{2007}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
