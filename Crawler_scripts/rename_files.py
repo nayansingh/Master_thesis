@@ -10,18 +10,18 @@ counter = 1
 #    if not ((Path.rfind('.py') == -1) and (Path.rfind('.txt') == -1) and (Path.rfind('.sh') == -1)):
 #       continue
 
-print 'path =',Path
-Name = Path
+print 'path =',Folder_path
+Name = 'Addidas'
 counter += 1
 start_num = 71
 
-list_of_files = os.listdir(Path)
+list_of_files = os.listdir(Folder_path)
 
 for i in range(0,len(list_of_files)):
   if not ((list_of_files[i].rfind('.py') == -1) and (list_of_files[i].rfind('.sh') == -1) and (list_of_files[i].rfind('.txt') == -1)):
     continue
-  os.rename(list_of_files[i],Name+str(i)+'.jpg')
-  os.system('mv %s %s' % (Name+str(i)+'.jpg','/home/vion_labs/Vion_labs/crawler/Addidas_0/'))
+  os.rename(list_of_files[i],Name+str(start_num)+'.jpg')
+  os.system('cp %s %s' % (Name+str(start_num)+'.jpg','/home/vion_labs/Vion_labs/crawler/Addidas_0/'))
   start_num += 1 
   #print 'List = ',list_of_files[i]
 
