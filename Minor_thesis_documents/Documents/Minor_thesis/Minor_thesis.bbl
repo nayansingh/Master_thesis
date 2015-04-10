@@ -1,0 +1,38 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{HowM2:online}{misc}{}
+  \field{sortinit}{H}
+  \field{howpublished}{\url{http://247wallst.com/technology-3/2014/09/29/how-much-time-do-viewers-really-spend-with-netflix/}}
+  \field{note}{(Visited on 04/04/2015)}
+  \field{title}{How Much Time Do Viewers Really Spend With Netflix? (NASDAQ:
+  NFLX) - 24/7 Wall St.}
+\endentry
+
+\entry{Mobil1:online}{misc}{}
+  \field{sortinit}{M}
+  \field{howpublished}{\url{http://www.emarketer.com/Article/Mobile-Continues-Steal-Share-of-US-Adults-Daily-Time-Spent-with-Media/1010782}}
+  \field{note}{(Visited on 04/04/2015)}
+  \field{title}{Mobile Continues to Steal Share of US Adults' Daily Time Spent
+  with Media - eMarketer}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

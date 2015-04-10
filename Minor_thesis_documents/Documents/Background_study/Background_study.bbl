@@ -1,0 +1,128 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{doermann1993logo}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Doermann}{D.}%
+     {David~S}{D.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rivlin}{R.}%
+     {Ehud}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weiss}{W.}%
+     {Isaac}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{DDSREWI1}
+  \strng{fullhash}{DDSREWI1}
+  \field{sortinit}{D}
+  \field{booktitle}{Document Analysis and Recognition, 1993., Proceedings of
+  the Second International Conference on}
+  \field{pages}{894\bibrangedash 897}
+  \field{title}{Logo recognition using geometric invariants}
+  \field{year}{1993}
+\endentry
+
+\entry{den2003logo}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hollander}{H.}%
+     {Richard~JM}{R.~J.}%
+     {den}{d.}%
+     {}{}}%
+    {{}%
+     {Hanjalic}{H.}%
+     {Alan}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{HRJdHA1}
+  \strng{fullhash}{HRJdHA1}
+  \field{sortinit}{H}
+  \field{booktitle}{Image Processing, 2003. ICIP 2003. Proceedings. 2003
+  International Conference on}
+  \field{pages}{III\bibrangedash 517}
+  \field{title}{Logo recognition in video stills by string matching}
+  \field{volume}{3}
+  \field{year}{2003}
+\endentry
+
+\entry{sinha2002recognizing}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sinha}{S.}%
+     {Pawan}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{SP1}
+  \strng{fullhash}{SP1}
+  \field{sortinit}{S}
+  \field{pages}{1093\bibrangedash 1097}
+  \field{title}{Recognizing complex patterns}
+  \field{volume}{5}
+  \field{journaltitle}{nature neuroscience}
+  \field{year}{2002}
+\endentry
+
+\entry{soffer1998using}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Soffer}{S.}%
+     {Aya}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Samet}{S.}%
+     {Hanan}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{SASH1}
+  \strng{fullhash}{SASH1}
+  \field{sortinit}{S}
+  \field{booktitle}{Pattern Recognition, 1998. Proceedings. Fourteenth
+  International Conference on}
+  \field{pages}{571\bibrangedash 573}
+  \field{title}{Using negative shape features for logo similarity matching}
+  \field{volume}{1}
+  \field{year}{1998}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

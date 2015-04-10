@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\usepackage[absolute]{textpos}
+\usepackage{fancyhdr}
+\usepackage{fancybox}
+\usepackage{lipsum}
+\usepackage{lastpage}
+\usepackage[includehead,includefoot,left=1.25in, right=1.25in, top=1.3in,bottom=1.1in]{geometry}
+\usepackage{nag}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{xcolor,graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{datetime}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{amsfonts}
+\usepackage[titletoc]{appendix}
+\usepackage{epstopdf}
+\usepackage[toc,acronym]{glossaries}
+\usepackage{tcolorbox}
+\usepackage{subfigure,wrapfig}
+\usepackage{tabto}
+\usepackage[backend=bibtex]{biblatex}
+\bibliography{./TeX_files/bib.bib}
+
+\setlength{\headheight}{1.5in}
+\setlength{\voffset}{-1in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{KTH Royal Institute of Technology \\ 
+	Department of Electronic Systems \\
+	Author:\hyperlink{mailto:nayan@kth.se}{Nayan Singh} \\
+}
+\rhead{
+	\includegraphics[scale=0.10]{TexFiles/kth_eng_pms.eps} \\
+	Page \thepage/\pageref{LastPage}}
+\rfoot{Page \thepage}
+
+\newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}
+\makeglossaries
+\include{./TeX_files/glossary}
+
+
+\title{Master Thesis Project Proposal Document. \\ 
+	Title - GPU cluster based \\ brand logo detector \\ in input video stream.}
+\author{ Company:{\it  Vion Labs AB, Stockholm} 
+	\\\\Nayan Singh Ravindra, \hyperlink{mailto:nayan@kth.se}{nayan@kth.se}}
+\date{\today}
+
+
+\begin{document}
+	
+	\thisfancyput(3.25in,-4.5in){%
+		\setlength{\unitlength}{1in}\fancyoval(7,9.5)}%
+	
+	\maketitle
+	\pagebreak
+	\tableofcontents
+	\include{TexFiles/Introduction}
+	\printglossaries
+	\printbibliography	
+	
+\end{document}
